@@ -1,5 +1,5 @@
 ﻿
-// Exercicío
+// Exercício
 //Desenvolver uma classe Carro que possua marca, modelo, potencia do moto e 
 //se possui sistema de freios abs. Depois de criados estes dados não podem ser alterados.
 //Deve possuir dois métodos de simulação de velocidade: "Acelerar" e "Frear"
