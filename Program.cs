@@ -33,9 +33,6 @@ class Carro
     
     public Carro(string marca, string modelo, int potencia, bool abs)
     {
-        int pos = 0;
-        for (pos = 0; pos <= 3; pos++)
-        {
             if (marca == "")
             {
                 throw new Exception("Valor não pode ser nulo");
@@ -49,7 +46,7 @@ class Carro
                 throw new Exception("Valor não pode ser nulo");
             }
            
-        }
+        
         this.Marca = marca;
         this.Modelo = modelo;
         this.Potencia = potencia;
